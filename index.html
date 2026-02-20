@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pythagoras tree</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <link rel="stylesheet" href="css/canvas-fun.css">
+    </head>
+    <body>
+        <canvas id="screen" width="800px" height="450px"></canvas>
+        <div class="slidecontainer">
+            <p>SETTINGS</p>
+            <p>Recursion Depth</p>
+            <input type="range" min="1" max="12" value="20" class="slider" id="recursion">
+            <p>Angle</p>
+            <input type="range" min="0" max="90" value="29" class="slider" id="angle">
+            <p>Size</p>
+            <input type="range" min="1" max="120" value="110" class="slider" id="length">
+            <p>Color</p>
+            <label class="switch">
+                <input checked="true" type="checkbox" id="colors">
+                <span class="slide-switch round"></span>
+            </label>
+        </div>
+        <script src="js/rainbow.js"></script>
+        <script src="js/canvas-fun.js"></script>
+    </body>
+</html>
